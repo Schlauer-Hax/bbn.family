@@ -1,0 +1,21 @@
+.wheel {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    
+}
+
+.imagecontainer {
+    position: absolute;
+}
+
+.parent {
+    margin: 12rem auto;
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 100px;
+    width: 100px;
+}
