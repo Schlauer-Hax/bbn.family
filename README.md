@@ -1,3 +1,3 @@
 # bbn.family
 
-This is a website for the bbn apple family
+The official internet presence of the BBN iCloud Family
