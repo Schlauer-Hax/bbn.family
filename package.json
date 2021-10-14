@@ -1,25 +1,26 @@
 {
-  "scripts": {
-    "watch": "npm-watch build",
-    "start": "webpack serve",
-    "build": "webpack",
-    "stats": "webpack --env production generateprofile --profile --json > stats.json"
-  },
-  "dependencies": {
-    "@lucsoft/webgen": "^1.19.6",
-    "copy-webpack-plugin": "^9.0.1",
-    "css-loader": "^6.4.0",
-    "css-minimizer-webpack-plugin": "^3.1.1",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.3.2",
-    "mini-css-extract-plugin": "^2.4.2",
-    "terser-webpack-plugin": "^5.2.4",
-    "ts-loader": "^9.2.6",
-    "webpack": "^5.58.1",
-    "webpack-bundle-analyzer": "^4.4.2"
-  },
-  "devDependencies": {
-    "webpack-cli": "^4.9.0",
-    "webpack-dev-server": "^4.3.1"
-  }
+    "name": "bbn.family",
+    "scripts": {
+        "watch": "npm-watch build",
+        "start": "webpack serve",
+        "build": "webpack",
+        "stats": "webpack --env production generateprofile --profile --json > stats.json"
+    },
+    "dependencies": {
+        "@lucsoft/webgen": "^1.19.6",
+        "css-loader": "^6.4.0",
+        "css-minimizer-webpack-plugin": "^3.1.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.3.2",
+        "mini-css-extract-plugin": "^2.4.2",
+        "terser-webpack-plugin": "^5.2.4",
+        "ts-loader": "^9.2.6",
+        "webpack": "^5.58.1",
+        "webpack-bundle-analyzer": "^4.4.2"
+    },
+    "devDependencies": {
+        "copy-webpack-plugin": "^9.0.1",
+        "webpack-cli": "^4.9.0",
+        "webpack-dev-server": "^4.3.1"
+    }
 }
